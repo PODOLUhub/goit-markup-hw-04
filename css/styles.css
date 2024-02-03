@@ -352,8 +352,7 @@ img {
 .container-footer{
   display: flex;
   align-items: baseline;
-
-
+  margin-right: 120px;
 }
 .logo-footer{
   color: #4D5AE5;
@@ -370,20 +369,18 @@ img {
   color: #f4f4fd;
 }
 .footer-text{
-  color: #ffffff;
-  font-weight: 500
+  font-weight: 500;
+  font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color:#F4F4FD;
-  max-width: 264px;
   margin-bottom: 16px;
+  max-width: 264px;
+}
+.social-text{
+    color: #FFFFFF
+}
 
-}
-.footer-icon{
-  justify-content: center;
-  gap: 16px;
-  align-items: center;
-}
 .footer-icon-item{
   width: 40px;
   height: 40px;
@@ -391,6 +388,6 @@ img {
 .container-logo{
   margin-right: 120px;
 }
-.footer-icon{
-
+.footer-icon:hover, .footer-icon:focus {
+background-color: #31d0aa;
 }
